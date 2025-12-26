@@ -31,13 +31,14 @@
 
 *GATE: This plan must be validated against the project constitution before implementation begins.*
 
-- [ ] **I. Spec-First Development**: Does this plan originate from an approved `spec.md` with clear research, tasks, and acceptance criteria?
-- [ ] **II. Technical Accuracy**: Are all proposed technologies, APIs, and patterns verifiable and not based on hallucinated information?
-- [ ] **III. Modular & Reproducible Architecture**: Does the proposed file structure promote modularity? Is the setup and deployment process reproducible?
-- [ ] **IV. Clear Instructional Writing**: Is the goal of this feature aligned with the book's instructional purpose?
-- [ ] **Book & RAG Standards**: Does the plan adhere to the specified Docusaurus, FastAPI, Qdrant, and Neon standards?
-- [ ] **Spec-Kit Rules**: Does this plan follow the required `specs/<feature>/` structure and artifact requirements?
-- [ ] **Constraints**: Does the plan respect the constraints regarding stable libraries, free tiers, and cross-platform support?
+- [ ] **I. Technical accuracy from primary sources**: Are all proposed technologies and claims backed by verifiable primary sources?
+- [ ] **II. Clarity for AI/Robotics learners**: Is the goal of this feature aligned with the book's instructional purpose for learners?
+- [ ] **III. Reproducible systems and explanations**: Is the setup and deployment process for this feature fully reproducible from the repository's instructions?
+- [ ] **IV. No unsupported claims**: Are all claims made within the feature's content supported by evidence?
+- [ ] **Standards**: Does the plan adhere to the specified standards (APA, Docusaurus)?
+- [ ] **RAG requirements**: If applicable, does the plan meet the RAG requirements (Qdrant, selected text mode, no hallucinations)?
+- [ ] **Tech stack**: Does the plan utilize the approved tech stack (Docusaurus, FastAPI, OpenAI SDKs, Neon, Qdrant)?
+- [ ] **Success criteria**: Does the plan align with the project's success criteria (successful build/deploy, accurate chatbot)?
 
 ## Project Structure
 
